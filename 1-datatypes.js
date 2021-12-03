@@ -3,47 +3,60 @@ Variables
 Variables are similar to buckets, we place things/data inside of them so we can access it or modify it later.
 Variables can hold different type of data as well based on our needs.
 
-There are two ways of declaring variables in JavaScript:
-1- Using the var keyword
-2- using the let keyword
+There are two ways of declaring variables:
+1- Using the "var" keyword
+2- using the "let" keyword
 Throughout this course, we will use let keyword exclusively.
 
 Constants
 Constants are almost identical to variables except that once we place something inside them, we cannot change its content.
-There are exception to this rule which we will discuss at a later stage.
 
-DataTypes
-JavaScript has the following data types:
-1- Number
-2- String
+The way to declare constants:
+using the "const" keyword
+
+Data Types
+There are two main categories of data types:
+1- Primitives: contains a single value only
+    - Number
+    - String
+    - Boolean
+    - null
+    - undefined
+    - BigInt
+2- Objects: contains complex data
+    - Object: mapping between key/value pairs
+    - Array: ordered collection of other data types
+    - Function: callable objects that can return other data types
 */
+
 
 // Number (integer)
 let age = 11;
+console.log("Number, integer:", age);
 
-// Number (float)
+// Number (decimal)
 let money = 11.500;
+console.log("Number, decimal:", money);
 
-// strings
+// BigInt
+let largesNumber = Number.MAX_SAFE_INTEGER;
+let bigIntNumber = 9007199254740991n + 1n;
+console.log("BigInt:", bigIntNumber);
+
+// String
 let name = "First Last";
+console.log("String:", name);
 
 // Boolean
 let isSubscribed = false;
+console.log("Boolean:", isSubscribed);
 
-// null / undefined
+// null
 let noVal = null;
-let unknown = undefined;
+console.log("Null:", null);
+
+// undefined
+let unknown;
+console.log("Undefined:", unknown);
 
 // arithmetic operations 
-
-const obj = {};
-
-obj.t = 1;
-
-console.log(obj);
-
-const a = [1,2];
-
-a.push(3);
-
-console.log(a);
