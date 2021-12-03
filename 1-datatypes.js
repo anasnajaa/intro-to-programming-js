@@ -13,20 +13,26 @@ Constants are almost identical to variables except that once we place something 
 There are exception to this rule which we will discuss at a later stage.
 
 DataTypes
-
+JavaScript has the following data types:
+1- Number
+2- String
 */
 
-// integers
+// Number (integer)
 let age = 11;
 
-// floats
+// Number (float)
 let money = 11.500;
 
 // strings
 let name = "First Last";
 
-// boolean
+// Boolean
 let isSubscribed = false;
+
+// null / undefined
+let noVal = null;
+let unknown = undefined;
 
 // arithmetic operations 
 
