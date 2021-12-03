@@ -14,6 +14,19 @@ Constants are almost identical to variables except that once we place something 
 The way to declare constants:
 using the "const" keyword
 
+Assignment
+Assignment means giving variable a value.
+The value on the right side is placed inside the variable on the left.
+let myVariable = 2;
+
+Declaration
+Declaring a variable simply means calling one of the keywords var/let then assigning a name to that variable:
+let myVariable;
+
+Initialization
+Initializing a variable however means that we give it an initial value:
+let myVariable = 1;
+
 Data Types
 There are two main categories of data types:
 1- Primitives: contains a single value only
@@ -55,8 +68,13 @@ console.log("Boolean:", isSubscribed);
 let noVal = null;
 console.log("Null:", null);
 
-// undefined
+// undefined ; declaration
 let unknown;
 console.log("Undefined:", unknown);
+
+// assignment
+unknown = 400;
+console.log("assignment:", unknown);
+
 
 // arithmetic operations 
